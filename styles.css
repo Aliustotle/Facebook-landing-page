@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Helvetica,ariel,sanserif;
+    font-size: 12px;
+}
+body{
+    background-color: whitesmoke;
+}
+.box{
+    height: 290px;
+    width: 300px;
+    justify-items: center;
+   text-align: center;
+background-color:#fff ;
+margin-top: -150px;
+margin-left: 770px;
+margin-right: 500px;
+margin-bottom: 200px;
+border-radius: 10px;
+border: 2px ;
+box-shadow: 0 0 10px  #777;
+}
+.describe{
+    
+    margin-top: 100px;
+    margin-left: 210px;
+    font-weight: 600;
+    font-size:50;
+    
+}
+.book{
+    font-size: 29px;
+    font-weight: 450;
+    color:black;
+
+}
+h1{
+    margin-left: -50px;
+    font-size: 60px;
+    font-weight: 700;
+    padding-left: 4rem;
+    color: rgb(24,119,242)
+    
+}
+.email{
+    margin-top: 30px;
+    width:250px;
+    height: 30PX;
+    padding: 10PX;
+    border-width: 1px;
+    border-radius: 3PX;
+    border-style: groove;
+    border-color: lightslategray;
+
+}
+.pass{
+    margin-top: 0px;
+    width:250px;
+    height: 30PX;
+    padding: 10PX;
+    border-radius: 3PX;
+    border-color: lightslategray;
+    border-style: groove;
+    border-width: 1px;
+}
+#blue{
+    margin-top: 10px;
+    width:250px;
+    height: 30PX;
+    border-radius: 3PX;
+    background-color:rgb(24,119,242) ;
+    color: #fff;
+    padding-bottom: 5px;
+    font-size: medium;
+    border-style: groove;
+    border-width: 1px;
+    border-color: lightslategray;
+}
+#green{
+    margin-top: 5px;
+    width:180px;
+    height: 40PX;
+    border-radius: 3PX;
+    background-color:rgb(21, 145, 16) ;
+    color: #fff;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border-style: groove;
+    border-width: 1px;
+    border-color: lightslategray;
+    font-size: small;
+
+}
+.foot{
+    margin-left: 790px;
+    margin-top: -180px;
+}
+h6{
+    display: flex;
+    flex-direction: row;
+}
+h6:before,h6:after{
+    content: " ";
+    flex: 1 1;
+    border-bottom: 0.5px solid rgb(153, 151, 151);
+    margin: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+    
+}
+a{
+text-decoration: none;
+}
